@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="TargetModel" nsURI="http://www.hs-fulda.de/mdd/targetModel"
+    nsPrefix="targetModel">
+  <eClassifiers xsi:type="ecore:EClass" name="Container">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="persons" ordered="false"
+        upperBound="-1" eType="#//Person" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="age" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigInteger"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Studentin" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="teacher" ordered="false"
+        lowerBound="3" upperBound="5" eType="#//Professor" eOpposite="#//Professor/learner"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bestProf" eType="#//Professor"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="aspiredDegree" lowerBound="1"
+        eType="#//StudentKind" transient="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Professor" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="learner" ordered="false"
+        lowerBound="5" upperBound="-1" eType="#//Studentin" eOpposite="#//Studentin/teacher"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bestStudent" lowerBound="1"
+        eType="#//Studentin"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="StudentKind" serializable="false">
+    <eLiterals name="Bachelor"/>
+    <eLiterals name="Master"/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<targetModel:Container xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:targetModel="http://www.hs-fulda.de/mdd/targetModel" xsi:schemaLocation="http://www.hs-fulda.de/mdd/targetModel targetModel.ecore">
+  <persons age="21"/>
+  <persons age="50"/>
+  <persons age="25"/>
+  <persons age="19"/>
+  <persons age="30"/>
+  <persons age="19"/>
+  <persons age="43"/>
+  <persons age="20"/>
+  <persons age="51"/>
+  <persons age="27"/>
+  <persons age="50"/>
+  <persons age="45"/>
+  <persons age="20"/>
+  <persons age="42"/>
+  <persons age="49"/>
+  <persons age="18"/>
+  <persons age="26"/>
+  <persons age="49"/>
+  <persons age="44"/>
+  <persons age="20"/>
+  <persons age="19"/>
+  <persons age="50"/>
+  <persons age="29"/>
+  <persons age="18"/>
+  <persons age="19"/>
+  <persons age="24"/>
+</targetModel:Container>

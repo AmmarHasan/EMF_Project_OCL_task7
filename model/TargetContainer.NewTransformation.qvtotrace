@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http:///www.eclipse.org/m2m/qvt/operational/trace.ecore">
+  <traceRecords>
+    <mappingOperation name="ContainerToContainer" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Container">
+        <value>
+          <modelElement href="SourceContainer.xmi#/"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Container">
+        <value>
+          <modelElement href="TargetContainer.xmi#/"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.4"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.0"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.0"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.11"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.8"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.6"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.3"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.1"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.12"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.12"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.9"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.10"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.11"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.3"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.1"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.2"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.2"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.7"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.7"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.8"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.5"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.4"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.6"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.5"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersons" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.10"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.9"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.4"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.19"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.0"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.18"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.8"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.13"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.3"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.14"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.12"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.24"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.9"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.17"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.11"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.23"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.1"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.25"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.2"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.20"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.7"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.21"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.5"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.22"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.6"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.15"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="CopyPersonsMinusOne" package="NewTransformation" module="NewTransformation"/>
+    <context>
+      <context name="self" type="Person">
+        <value>
+          <modelElement href="SourceContainer.xmi#//@persons.10"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Person">
+        <value>
+          <modelElement href="TargetContainer.xmi#//@persons.16"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+</trace:Trace>
